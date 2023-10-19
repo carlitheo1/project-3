@@ -1,1 +1,94 @@
 /* Place CSS styles here */
+.broke-bear-logo {
+    width: 90px;
+  }
+
+.broke-bear-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #d387ff;
+  }
+  
+  .broke-bear-header {
+    max-width: 90px;
+  }
+  
+  nav a{
+    display: inline-block;
+    padding: 16px;
+    border: 1px solid white;
+    color: #000000;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-decoration: none;
+    transition: all .25s ease;
+    width: auto;
+}
+
+nav{
+    display: block;
+}
+
+nav a{
+    background-color: transparent;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+  .broke-bear-hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.55), 
+        rgba(0, 0, 0, 0.55)
+      ),
+      url(../img/pink-bg.jpeg);
+    /* needed to make background flexible */
+    background-size: cover;
+    background-position: left;
+  }
+  
+  .broke-bear-hero h1  {
+    color: white;
+    text-shadow: 1px 1px 2px #000;
+  }
+  
+  
+  /* Add some padding and a grey background color to containers */
+  .broke-bear-container {
+    padding: 20px;
+  }
+  
+  .broke-bear-label-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .broke-bear-feature-content-wrapper {
+    background-color: lightskyblue;
+  }
+  
+  .broke-bear-feature-content {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .broke-bear-feature-content p {
+    color: #000;
+  }
+  
+  .broke-bear-feature-items {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+  }
