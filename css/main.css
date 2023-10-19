@@ -1,13 +1,20 @@
 /* Place CSS styles here */
+@media (max-width: 768px) {
+    body{
+    background-color: #d387ff;
+    }
+}
+
 .broke-bear-logo {
     width: 90px;
+    align-items: center;
   }
 
 .broke-bear-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+   /*  position: sticky; */
     top: 0;
     background-color: #d387ff;
   }
@@ -34,10 +41,12 @@ nav{
 
 nav a{
     background-color: transparent;
+    display: table-cell;
 }
 
 *{
     box-sizing: border-box;
+    border-color: #000;
 }
 
   .broke-bear-hero {
@@ -91,4 +100,8 @@ nav a{
     display: flex;
     justify-content: center;
     gap: 18px;
+  }
+
+  .broke-bear-footer{
+
   }
