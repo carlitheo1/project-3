@@ -3,6 +3,10 @@ div{
   background-color: #d387ff;
 }
 
+.broke-bear-header-bar{
+  background-color: #000;
+}
+
 
 @media (max-width: 768px) {
     body{
@@ -20,13 +24,13 @@ div{
   }
 
 .broke-bear-header {
-  background-color: #d387ff;
     display: flex;
     align-items: center;
     justify-content: space-between;
    /*  position: sticky; */
     top: 0;
-    background-color: #d387ff;
+    background-color: #000000;
+    max-width: fit-content;
   }
   
   .broke-bear-header {
@@ -34,7 +38,7 @@ div{
   }
   
   nav a, .my-button{
-    background-color: transparent;
+    background-color: #d387ff;
     display: table-cell;
     padding: 16px;
     border: 1px solid white;
@@ -43,6 +47,7 @@ div{
     margin-bottom: 4px;
     text-decoration: none;
     transition: all .25s ease;
+    
     width: auto;
 }
 
@@ -77,6 +82,10 @@ nav{
     text-shadow: 1px 1px 2px #000;
   }
   
+  h2{
+    display: flex;
+    justify-content: center;
+  }
   
   /* Add some padding and a grey background color to containers */
   .broke-bear-container {
