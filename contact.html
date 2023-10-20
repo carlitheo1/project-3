@@ -39,21 +39,32 @@
       <!-- this is my row -->
       <div class="broke-bear-featured-item">
         <!-- side one -->
-        <h1 class="broke-bear-featured-item-title">About Me</h1>
-        <div class="broke-bear-item-image-wrapper">
-          <img class="selfie-image" src="./img/selfie 2023 - Copy.JPG" alt="">
+        <h1 class="broke-bear-featured-item-title">Get in Touch with Me!</h1>
         </div>
         <!-- side two -->
         <div class="broke-bear-featured-item-content">
           <p class="broke-bear-featured-item-price"></p>
           <p class="broke-bear-featured-item-description"></p>
-          <hr>
-          <p class="obroke-bear-featured-item-intro">this is my description. this is my description. this is my description. this is my description. this is my description. this is my description. this is my description. this is my description. this is my description. this is my description. this is my description. this is my description.  </p>
-          <ul>
-            <li>item 1</li>
-            <li>item 2</li>
-            <li>item 3</li>
-          </ul>
+          <p class="broke-bear-featured-item-intro">If you would like to connect with me, you can visit my Instagram or fill out the form below:</p><br>
+        </div>
+        <!-- my contact form section -->
+        <form action="./thanks.html">
+          <label class="l-hidden" for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="">
+          <br>
+          <br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required> <br><br>
+          <label for="story">Comments:</label>
+          <textarea id="story" name="story" rows="5" cols="33">
+          </textarea>
+          <p>
+            <input class="my-button my-secondary-button" type="submit" value="Submit">
+          </p>
+        </form> 
+      
           <div class="broke-bear-featured-item-quantity-wrapper">
             <p class="broke-bear-featured-item-quantity-title">Quantity</p>
             <div class="broke-bear-featured-item-quantity-actions">
@@ -69,7 +80,7 @@
         </div>
       </div>
     </main>
-    <footer class="broke-bear-footer">footer</footer>
+    <footer class="broke-bear-footer"></footer>
   </div>
   <!-- top of fake layout for about page -->
   <script src="js/main.js"></script>

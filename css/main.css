@@ -118,6 +118,31 @@ nav{
     gap: 18px;
   }
 
+  input, textarea {
+    display: flex;
+    border: 1px solid #c4c3c3;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    width: 50%;
+  }
+
+  button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+
+  input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+
+    
+
   .broke-bear-footer{
 
   }
