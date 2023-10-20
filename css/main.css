@@ -1,4 +1,9 @@
 /* Place CSS styles here */
+div{
+  background-color: #d387ff;
+}
+
+
 @media (max-width: 768px) {
     body{
     background-color: #d387ff;
@@ -11,6 +16,7 @@
   }
 
 .broke-bear-header {
+  background-color: #d387ff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,8 +29,9 @@
     max-width: 90px;
   }
   
-  nav a{
-    display: inline-block;
+  nav a, .my-button{
+    background-color: transparent;
+    display: table-cell;
     padding: 16px;
     border: 1px solid white;
     color: #000000;
@@ -37,11 +44,6 @@
 
 nav{
     display: block;
-}
-
-nav a{
-    background-color: transparent;
-    display: table-cell;
 }
 
 *{
@@ -63,6 +65,7 @@ nav a{
     /* needed to make background flexible */
     background-size: cover;
     background-position: left;
+    background-color: #4b0082;
   }
   
   .broke-bear-hero h1  {
@@ -83,7 +86,7 @@ nav a{
   }
   
   .broke-bear-feature-content-wrapper {
-    background-color: lightskyblue;
+   
   }
   
   .broke-bear-feature-content {
