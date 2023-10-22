@@ -19,6 +19,14 @@ div{
   width: 175px;
 }
 
+.emos-cereal{
+  width: 160px;
+}
+
+.seasonal-palette{
+  width: 160px;
+}
+
 .broke-bear-logo {
     width: 90px;
     align-items: center;
@@ -144,7 +152,7 @@ nav{
   .broke-bear-feature-items {
     display: flex;
     justify-content: center;
-    gap: 18px;
+    gap: 20px;
   }
 
   .broke-bear-featured-item{
