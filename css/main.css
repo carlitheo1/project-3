@@ -16,7 +16,7 @@ div{
 }
 
 .selfie-image{
-  width: 90px;
+  width: 175px;
 }
 
 .broke-bear-logo {
@@ -48,9 +48,27 @@ div{
     margin-bottom: 4px;
     text-decoration: none;
     transition: all .25s ease;
-    
     width: auto;
 }
+
+  .my-button-links-special{
+    background-color: #ffffff;
+    display: table-cell;
+    padding: 16px;
+    border: 1px solid #000000;
+    color: #000000;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-decoration: none;
+    transition: all .25s ease;
+    width: auto;
+    box-shadow: -4px 6px #000000;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+
+  }
 
 nav{
     display: block;
@@ -87,7 +105,17 @@ nav{
     display: flex;
     justify-content: center;
   }
+
+  li{
+    list-style-position: inside;
+    text-align: center;
+  }
   
+  .broke-bear-resume-titles{
+    font-weight: bold;
+  }
+
+
   /* Add some padding and a grey background color to containers */
   .broke-bear-container {
     padding: 20px;
@@ -117,6 +145,10 @@ nav{
     display: flex;
     justify-content: center;
     gap: 18px;
+  }
+
+  .broke-bear-featured-item{
+
   }
 
   input, textarea {
@@ -164,7 +196,6 @@ input, textarea{
 .form-input{
  text-align: center;
 }
-
 
   .broke-bear-footer{
 
