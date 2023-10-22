@@ -1,6 +1,7 @@
 /* Place CSS styles here */
 div{
   background-color: #d387ff;
+  text-align: center;
 }
 
 .broke-bear-header-bar{
@@ -37,7 +38,7 @@ div{
     max-width: 90px;
   }
   
-  nav a, .my-button{
+  nav a, .my-button-links{
     background-color: #d387ff;
     display: table-cell;
     padding: 16px;
@@ -136,15 +137,37 @@ button, input, optgroup, select, textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
-
+}
   input[type="text" i] {
     padding-block: 1px;
-    padding-inline: 2px;
+    padding-inline: 2px;}
 
-    
+input, textarea{
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: -4px 6px #000000;
+    background-color: #ffffff;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 248px
+}
+
+.form{
+
+}
+
+.form-input{
+ text-align: center;
+}
+
 
   .broke-bear-footer{
 
   }
 
-  .
+  
