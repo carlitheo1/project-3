@@ -8,6 +8,14 @@ div{
   background-color: #000;
 }
 
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
 @media (max-width: 488px) {
   .broke-bear-container{
     grid-template-columns: 1fr;
@@ -52,12 +60,45 @@ div{
   }
   
   .broke-bear-header {
-    max-width: 90px;
   }
+
+  /* Add a black background color to the top navigation */
+.brokenav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.brokenav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.brokenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.brokenav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.brokenav .icon {
+  display: none;
+}
   
   nav a, .my-button-links{
     background-color: #d387ff;
-    display: table-cell;
+    display: inline-flex;
     padding: 16px;
     border: 1px solid white;
     color: #000000;
