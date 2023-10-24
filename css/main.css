@@ -8,6 +8,13 @@ div{
   background-color: #000;
 }
 
+@media (max-width: 488px) {
+  .broke-bear-container{
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+  
+}
 
 @media (max-width: 768px) {
     body{
@@ -15,8 +22,10 @@ div{
     }
 }
 
+/* ADD SLIDE IN EFFECT HERE!!! */
 .selfie-image{
   width: 175px;
+  box-shadow: -6px 7px black
 }
 
 .emos-cereal{
@@ -127,6 +136,16 @@ nav{
   /* Add some padding and a grey background color to containers */
   .broke-bear-container {
     padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .broke-bear-flex-container{
+
+  }
+  
+  .art-images{
+    width: 100%;
   }
   
   .broke-bear-label-checkbox {
@@ -206,7 +225,7 @@ input, textarea{
 }
 
   .broke-bear-footer{
-
-  }
+    
+ }
 
   
