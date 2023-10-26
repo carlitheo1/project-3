@@ -14,12 +14,41 @@ div{
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
+  color: #ffffff;
 }
 
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 768px) {
+  .brokenav a:not(:first-child) {display: none;}
+  .brokenav  a.icon {
+    
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  #brokenav.responsive {position: relative;}
+  #brokenav.responsive a.icon {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .brokenav.responsive a {
+    position: relative;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+
+/*  
 @media (max-width: 488px) {
   .broke-bear-container{
     grid-template-columns: 1fr;
     flex-direction: column;
+    position: relative;
   }
   
 }
@@ -29,6 +58,7 @@ div{
     background-color: #d387ff;
     }
 }
+*/
 
 /* ADD SLIDE IN EFFECT HERE!!! */
 .selfie-image{
@@ -56,15 +86,12 @@ div{
    /*  position: sticky; */
     top: 0;
     background-color: #000000;
-    max-width: fit-content;
+    
   }
   
-  .broke-bear-header {
-  }
-
-  /* Add a black background color to the top navigation */
+/* Add a black background color to the top navigation */
 .brokenav {
-  background-color: #333;
+  background-color: #000000;
   overflow: hidden;
 }
 
@@ -76,7 +103,7 @@ div{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 23px;
 }
 
 /* Change the color of links on hover */
@@ -87,13 +114,15 @@ div{
 
 /* Add an active class to highlight the current page */
 .brokenav a.active {
-  background-color: #04AA6D;
   color: white;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
 .brokenav .icon {
   display: none;
+  position: absolute;
+    right: 28px;
+    top: 21px;
 }
   
   nav a, .my-button-links{
@@ -147,10 +176,11 @@ nav{
         rgba(0, 0, 0, 0.55), 
         rgba(0, 0, 0, 0.55)
       ),
-      url(../img/pink-bg.jpeg);
+      url(../img/Broke\ Bear\ logo-02-02-02.png);
+      
     /* needed to make background flexible */
     background-size: cover;
-    background-position: left;
+    background-position: center;
     background-color: #4b0082;
   }
   
