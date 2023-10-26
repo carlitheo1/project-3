@@ -1,9 +1,11 @@
 // JS scripts placed here
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
-    var x = document.getElementById("brokenav");
-    if (x.className === "broke-bear-header-bar") {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
       x.className += " responsive";
     } else {
-      x.className = "broke-bear-header-bar";
+      x.className = "topnav";
     }
   }
