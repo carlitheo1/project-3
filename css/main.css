@@ -9,6 +9,7 @@ div{
   text-align: center;
 }
 
+
 .broke-bear-header-bar{
   background-color: #000;
 }
@@ -18,15 +19,27 @@ div{
   overflow: hidden;
 }
 
+.fa{
+  color: #ffffff;
+}
+
+a{
+  align-items: center;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  display: inline-flex;
+    position: relative;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    top: 0;
+    display: inline-flex;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 /* Change the color of links on hover */
@@ -37,8 +50,9 @@ div{
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #000000;
+  border-color: #000000;
+  
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -50,8 +64,12 @@ div{
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: right;
-    display: block;
+    display: flex;
+    position: absolute;
+    right: 28px;
+    top: 66px;
+    font-size: 23px;
+    background-color: #000000;
   }
 }
 
@@ -59,15 +77,18 @@ div{
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
+    display: flex;
     position: absolute;
-    right: 0;
-    top: 0;
+    background-color: #d387ff;
+    right: 28px;
+    top: 66px;
+    font-size: 23px;
   }
   .topnav.responsive a {
-    float: none;
+    position: relative;
     display: block;
     text-align: center;
-    background-color: #d387ff;
+  /*   background-color: #d387ff;*/
   }
 }
 
