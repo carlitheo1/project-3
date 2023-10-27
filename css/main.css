@@ -206,6 +206,10 @@ nav{
     text-shadow: 1px 1px 2px #000;
   }
   
+  h1{
+    color: #ffffff;
+  }
+
   h2{
     display: flex;
     justify-content: center;
@@ -245,6 +249,11 @@ nav{
   .broke-bear-feature-content-wrapper {
    
   }
+
+  .broke-bear-default-wrapper{
+    background-color: #000000;
+    color: #ffffff;
+  }
   
   .broke-bear-feature-content {
     max-width: 900px;
@@ -263,8 +272,14 @@ nav{
   }
 
   .broke-bear-featured-item{
-
-  }
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+  
 
   input, textarea {
     display: flex;
@@ -304,8 +319,24 @@ input, textarea{
     max-width: 248px
 }
 
-.form{
+.broke-bear-grid-item{
 
+}
+
+.broke-bear-flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+  .broke-bear-flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+  }
 }
 
 .form-input{
