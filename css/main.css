@@ -1,12 +1,14 @@
 /* Place CSS styles here */
 
 img{
-  width: 100px;
+  width: 100%;
+  height: auto;
 }
 
 div{
   background-color: #d387ff;
   text-align: center;
+  justify-content: center;
 }
 
 
@@ -92,14 +94,10 @@ a{
   }
 }
 
-
-
-/*  
-@media (max-width: 488px) {
-  .broke-bear-container{
+@media (max-width: 600px) {
+  .broke-bear-grid-container{
     grid-template-columns: 1fr;
-    flex-direction: column;
-    position: relative;
+    grid-gap: 10px
   }
   
 }
@@ -109,7 +107,13 @@ a{
     background-color: #d387ff;
     }
 }
-*/
+
+@media (max-width: 480px){
+.broke-bear-featured-item {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 
 
 /* ADD SLIDE IN EFFECT HERE!!! */
@@ -174,7 +178,7 @@ a{
 
   }
 
-nav{
+.broke-bear-nav{
     display: block;
 }
 
@@ -206,6 +210,8 @@ nav{
     text-shadow: 1px 1px 2px #000;
   }
   
+
+
   h1{
     color: #ffffff;
   }
@@ -213,6 +219,10 @@ nav{
   h2{
     display: flex;
     justify-content: center;
+  }
+
+  .artwork-titles{
+    color: #ffffff;
   }
 
   li{
@@ -280,6 +290,10 @@ nav{
     gap: 30px;
 }
   
+.broke-bear-featured-item-title{
+    color: #000000;
+}
+
 
   input, textarea {
     display: flex;
@@ -323,6 +337,13 @@ input, textarea{
 
 }
 
+.broke-bear-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+}
+
 .broke-bear-flex-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -337,6 +358,10 @@ input, textarea{
     grid-gap: 20px;
     width: 100%;
   }
+}
+
+.coffee-posters{
+  width: 200px;
 }
 
 .form-input{
