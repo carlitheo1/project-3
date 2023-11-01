@@ -1,5 +1,9 @@
 /* Place CSS styles here */
 
+body{
+
+}
+
 img{
   width: 100%;
   height: auto;
@@ -21,6 +25,7 @@ div{
   overflow: hidden;
 }
 
+
 .fa{
   color: #ffffff;
 }
@@ -39,7 +44,7 @@ a{
     display: inline-flex;
     color: #000000;
     text-align: center;
-    padding: 14px 16px;
+   
     text-decoration: none;
     font-size: 17px;
 }
@@ -135,10 +140,16 @@ a{
     align-items: center;
   }
 
+.logo-active{
+  align-items: center;
+  background-color: #000000;
+  padding: inherit;
+}
+
 .broke-bear-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
    /*  position: sticky; */
     top: 0;
     background-color: #000000;
@@ -150,7 +161,6 @@ a{
     background-color: #d387ff;
     display: inline-flex;
     padding: 16px;
-    border: 1px solid white;
     color: #000000;
     margin-top: 4px;
     margin-bottom: 4px;
@@ -182,9 +192,14 @@ a{
     display: block;
 }
 
+main{
+  background-color: #d387ff;
+}
+
 *{
     box-sizing: border-box;
     border-color: #000;
+    text-align: center;
 }
 
   .broke-bear-hero {
