@@ -1,7 +1,7 @@
 /* Place CSS styles here */
 
 body{
-
+  background-color: #d387ff;
 }
 
 img{
@@ -127,8 +127,12 @@ a{
   box-shadow: -6px 7px black
 }
 
+.coffee-posters{
+  width: 200px;
+}
+
 .emos-cereal{
-  width: 160px;
+  width: 275px;
 }
 
 .seasonal-palette{
@@ -168,6 +172,18 @@ a{
     transition: all .25s ease;
     width: auto;
 }
+
+  .submit-button{
+    background-color: #ffffff;
+    display: inline-flex;
+    padding: 16px;
+    color: #000000;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-decoration: none;
+    transition: all .25s ease;
+    width: auto;
+  }
 
   .my-button-links-special{
     background-color: #ffffff;
@@ -275,8 +291,11 @@ main{
    
   }
 
+  .broke-bear-default-title{
+    padding-top: 20px;
+  }
+
   .broke-bear-default-wrapper{
-    background-color: #000000;
     color: #ffffff;
   }
   
@@ -375,8 +394,80 @@ input, textarea{
   }
 }
 
-.coffee-posters{
-  width: 200px;
+/* w3school slideshow section */
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev{
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 .form-input{
@@ -384,7 +475,7 @@ input, textarea{
 }
 
   .broke-bear-footer{
-    
+    padding: 20px;
  }
 
   
