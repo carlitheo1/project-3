@@ -137,11 +137,30 @@ a{
 }
 
 .emos-cereal{
-  width: 275px;
+  width: 115%;
 }
 
 .seasonal-palette{
   width: 160px;
+}
+
+.object-iteration{
+ 
+}
+
+.graphic-response{
+  width: 102%;
+}
+
+.photos{
+  rotate: 90deg;
+  width: 74%;
+}
+
+.photos-flower{
+  margin-top: -21px;
+    rotate: 90deg;
+    width: 74%;
 }
 
 .broke-bear-logo {
@@ -164,7 +183,6 @@ a{
     background-color: #000000;
     
   }
-  
   
   nav a, .my-button-links{
     background-color: #d387ff;
@@ -206,7 +224,6 @@ a{
     border-bottom-color: transparent;
     border-right-color: transparent;
     border-left-color: transparent;
-
   }
 
 .broke-bear-nav{
@@ -246,8 +263,6 @@ main{
     text-shadow: 1px 1px 2px #000;
   }
   
-
-
   h1{
     color: #ffffff;
   }
@@ -270,13 +285,26 @@ main{
     font-weight: bold;
   }
 
-
   /* Add some padding and a grey background color to containers */
   .broke-bear-container {
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .broke-bear-container-one {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .broke-bear-grid-container-different {
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1px;
+  }
+
 
   .broke-bear-flex-container{
 
@@ -290,10 +318,6 @@ main{
     display: flex;
     align-items: center;
     gap: 8px;
-  }
-  
-  .broke-bear-feature-content-wrapper {
-   
   }
 
   .broke-bear-default-title{
@@ -333,7 +357,6 @@ main{
     color: #000000;
 }
 
-
   input, textarea {
     display: flex;
     border: 1px solid #c4c3c3;
@@ -372,10 +395,6 @@ input, textarea{
     max-width: 248px
 }
 
-.broke-bear-grid-item{
-
-}
-
 .broke-bear-grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -399,7 +418,6 @@ input, textarea{
   }
 }
 
-/* w3school slideshow section */
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -463,7 +481,6 @@ input, textarea{
   position: absolute;
   top: 0;
 }
-
 
 /* Fading animation */
 .fade {
