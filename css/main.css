@@ -132,16 +132,29 @@ a{
   box-shadow: -6px 7px black
 }
 
+.posters{
+  width: 100%;
+}
+
 .coffee-posters{
   width: 200px;
 }
 
 .emos-cereal{
-  width: 115%;
+  width: 100%;
+  margin-right: 20px;
 }
 
 .seasonal-palette{
   width: 160px;
+}
+
+.six-principles{
+
+}
+
+.musology{
+
 }
 
 .object-iteration{
@@ -155,12 +168,6 @@ a{
 .photos{
   rotate: 90deg;
   width: 74%;
-}
-
-.photos-flower{
-  margin-top: -21px;
-    rotate: 90deg;
-    width: 74%;
 }
 
 .broke-bear-logo {
@@ -272,6 +279,14 @@ main{
     justify-content: center;
   }
 
+  h3{
+
+  }
+
+  h4{
+    font-size: 15px;
+  }
+
   .artwork-titles{
     color: #ffffff;
   }
@@ -345,7 +360,7 @@ main{
   }
 
   .broke-bear-featured-item{
-    max-width: 800px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -407,6 +422,15 @@ input, textarea{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
     width: 100%;
+}
+
+@media (max-width: 480px) {
+  .broke-bear-grid-container-different {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
