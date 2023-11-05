@@ -150,11 +150,11 @@ a{
 }
 
 .six-principles{
-
+  width: 100%;
 }
 
 .musology{
-
+  width: 100%;
 }
 
 .object-iteration{
@@ -307,17 +307,10 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .broke-bear-container-one {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
   .broke-bear-grid-container-different {
-  
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1px;
+    grid-gap: 18px;
   }
 
 
@@ -360,7 +353,7 @@ main{
   }
 
   .broke-bear-featured-item{
-    max-width: 1000px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -525,4 +518,12 @@ input, textarea{
     padding: 20px;
  }
 
-  
+ .line{
+  width: 160px;
+ }
+
+ .broke-bear-featured-item-description{
+  text-align: left;
+  line-height: 1.3;
+ }
+
